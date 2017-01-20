@@ -1,0 +1,95 @@
+[ 
+    {
+        id: '826efd71-0822-4beb-ace3-29e5b0e4288e',
+        lastTask: '',
+        name: 'dglotov',
+        ratioRage: [],
+        timeScope: []
+    },
+    {
+        id: 'bc7208cb-429d-4b80-a8b9-6185eeb66834',
+        lastTask: '',
+        name: 'vtrebushnoy',
+        ratioRage: [],
+        timeScope: []
+    },
+    {
+        id: '6f03c6ce-2a03-4ca1-87a2-1c329479154b',
+        lastTask: '',
+        name: 'dkasyanov',
+        ratioRage: [],
+        timeScope: []
+    },
+    {
+        id: '6811c1b2-252f-46ef-a415-ba82189ef1b8',
+        lastTask: '',
+        name: 'knovosad',
+        ratioRage: [],
+        timeScope: [] } 
+]
+
+r.db('ratio').table('users').run().then(res => console.log(res))
+r.db('ratio').table('users').get( id ).update({lastTask: ''}).run().then(res => console.log(res))
+r.db('ratio').table('users').get( id ).update({ratioRage: []}).run().then(res => console.log(res))
+
+[ 1.35,
+       0.8,
+       0.1,
+       0.7,
+       1,
+       1.4,
+       1.6,
+       1,
+       0.6,
+       14.6,
+       4.5,
+       1.9,
+       3,
+       1,
+       1,
+       1,
+       1,
+       0.9,
+       0.1,
+       3.4,
+       1,
+       3.3,
+       1,
+       3.1,
+       7,
+       2.8,
+       1,
+       0.8,
+       1,
+       0.7 ]
+
+r.db('ratio').table('users').get('6f03c6ce-2a03-4ca1-87a2-1c329479154b').update({ratioRage: [ 1.35,
+0.8,
+0.1,
+0.7,
+1,
+1.4,
+1.6,
+1,
+0.6,
+1.82,
+4.5,
+1.9,
+3,
+1,
+1,
+1,
+1,
+0.9,
+0.1,
+3.4,
+1,
+3.3,
+1,
+3.1,
+7,
+2.8,
+1,
+0.8,
+1,
+0.7 ]}).run().then(res => console.log(res))

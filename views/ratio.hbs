@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="ratio.css">
+<div></div>
+<div class="ration__container">
+	<span>Разработчик</span>
+	<select name="developer" id="dever">
+		<option value="dkasyanov">Касьянов</option>
+		<option value="vtrebushnoy">Требушной</option>
+		<option value="knovosad">Новосад</option>
+	</select>
+	
+	<div class='valuation'>
+		<span>Оценочное время</span><br>
+		<input type="text" id="val_h" name="valuation__hours" placeholder="Часы">
+		<input type="text" id="val_m" name="valuation__minutes" placeholder="Минуты">
+	</div>
+
+	<div class='spend'>
+		<span>Затраченое время</span><br>
+		<input type="text" id="sp_h" name="spend__hours" placeholder="Часы">
+		<input type="text" id="sp_m" name="spend__minutes" placeholder="Минуты">
+	</div>
+	
+	<input class="tasker" id="tasker" type="text" placeholder="Последняя задача">
+
+</div>
+
+<div class='ration__result'>
+	<div class="ration__result_label">Коэф</div>
+	<div id="ratioHolder" class="ration__result_number">_</div>
+</div>
+
+<br>
+<button id='mindIt' class="button">Учесть</button>
+
+<script src='ratio.js'></script>

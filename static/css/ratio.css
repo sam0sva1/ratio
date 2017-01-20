@@ -1,0 +1,36 @@
+#dever {
+	font-size: 20px;
+}
+.ration__container {
+	display: inline-block;
+	height: 80px;
+}
+
+.valuation {
+	margin: 10px 0;
+}
+.spend {
+	margin: 10px 0;
+}
+.button {
+	margin-top: 15px;
+	margin-left: 29px;
+}
+input[type='text'] {
+	width: 50px;
+	margin: 0 2.5px;
+}
+
+.ration__result {
+	display: inline-block;
+	//border: 1px solid grey;
+	margin: 20px 20px;
+	height: 60px;
+	line-height: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+#tasker {
+	margin: 20px 2.5px;
+	width: 112.5px;
+}
